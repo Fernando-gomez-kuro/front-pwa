@@ -31,11 +31,7 @@ export default function Catalogo() {
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
         <h1>Juegos</h1>
         <div style={{ 
-          padding: "5px 10px", 
-          borderRadius: "4px", 
-          backgroundColor: isOnline ? "#4caf50" : "#f44336",
-          color: "white",
-          fontSize: "14px"
+          
         }}>
           
         </div>

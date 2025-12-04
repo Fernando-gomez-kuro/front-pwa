@@ -29,7 +29,7 @@ function Registro() {
 
   const registrar = async () => {
     if (!nombre.trim() || !telefono.trim() || !password.trim()) {
-      alert("Por favor completa todos los campos");
+      alert(" completa todos los campos");
       return;
     }
 
@@ -55,7 +55,7 @@ function Registro() {
         });
 
         const data = await res.json();
-        console.log("📡 Respuesta del servidor:", data);
+        console.log("Respuesta del servidor:", data);
 
         if (res.ok) {
           if (registroIdEnIndexedDB) {
@@ -100,16 +100,7 @@ function Registro() {
     <div>
       <h2>Registro</h2>
       
-      <div style={{ 
-        padding: "10px", 
-        marginBottom: "10px", 
-        borderRadius: "4px", 
-        backgroundColor: isOnline ? "#d4edda" : "#fff3cd",
-        color: isOnline ? "#155724" : "#856404",
-        fontSize: "14px"
-      }}>
-        {isOnline ? "En línea " : "Sin conexión"}
-      </div>
+     
 
       <input
         type="text"
