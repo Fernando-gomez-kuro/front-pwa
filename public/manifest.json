@@ -1,7 +1,7 @@
 {
   "name": "galeria de imagenes",
-  "short_name": "Catálogo",
-  "description": "Aplicación PWA con catálogo de productos",
+  "short_name": "Galeria",
+  "description": "Galeria de videojuegos",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
